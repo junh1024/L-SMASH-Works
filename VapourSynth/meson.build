@@ -1,6 +1,6 @@
 project('L-SMASH-Works', 'c',
   default_options: ['buildtype=release', 'b_ndebug=if-release', 'c_std=c99'],
-  meson_version: '>=0.48.0'
+  meson_version: '>=0.43.0'
 )
 
 version_h = declare_dependency(
